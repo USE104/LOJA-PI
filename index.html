@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Growing | Loja 🛒</title>
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/loja.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="Container">
+            <div class="logo">
+                <img src="./src/images/logotipo_sem_ONG- sem fundo.png">
+            </div> 
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <a href=""><li>Entrar</li></a>
+                        <a href=""><li>Projetos</li></a>
+                        <a href=""><li>Loja</li></a>
+                        <a href=""><li>Sobre</li></a>
+                        <a href=""><li>Contato</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <img src="./src/images/kkkkkk.png" width="1422px">
+
+    <div class="center">
+        <div class="container">
+            <div class="logo">
+                <img src="./src/images/logotipo_sem_ONG- sem fundo.png">
+            </div> 
+            
+            <div class="text">ENCOMENDAR</div>
+                <form action="#">
+                    <div class="data">
+                        <label>Nome</label>
+                        <input type="text" maxlength="20" required>
+                    </div>
+                    <div class="data">
+                        <label>CPF</label>
+                        <input type="datetime"  maxlength="15"required>
+                    </div>
+
+                    <div class="data">
+                        <Label>Email</Label>
+                        <input type="email" maxlength="30" required>
+                    </div>
+                    <div class="data">
+                        <Label>Telefone</Label>
+                        <input type="tel" maxlength="12" required>
+                    </div>
+                    <div class="data">
+                        <Label>Endereço</Label>
+                        <input type="text" maxlength="20" required>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="label"> Forma de Pagamento:</label>
+                            <p class="p">
+                                <input type="radio" id="Crédito" name="Pagamento" value=" Crédito" required>
+                                <label for="Crédito"> Crédito</label>
+                                <input type="radio" id="Debito" name="Pagamento" value=" Débito" required>
+                                <label for=" Debito"> Débito</label>
+                            </p>     
+                            <div class="containter1">
+                                <form class="checkout">
+                                    <div class="checkout-header">
+                                        <h1 class="checkout-title">
+                                         Pagamento com Cartão
+                                        </h1>
+                                    </div>
+                                     <p>
+                                        <label for="Nome completo"></label>
+                                        <input type="text" class="checkout-input checkout-name" placeholder="Nome" maxlength="25"autofocus required>
+                                        <label for="Mês de Expriração"></label>
+                                        <input type="datetime" class="checkout-input checkout-exp" placeholder="MÊS" maxlength="2"required>
+                                        <label for="Ano de Expiração"></label>
+                                        <input type="datetime" class="checkout-input checkout-exp" placeholder="ANO" maxlength="4" required>
+                                    </p>
+                                    <p>
+                                        <label for="Número do Cartão"></label>
+                                        <input type="datetime" class="checkout-input checkout-card" placeholder="Nómero do cartão"  maxlength="19"required>
+                                        <label for="Código de Segurança"></label>
+                                        <input type="datetime" class="checkout-input checkout-cvc" placeholder="CVC" maxlength="3" required>
+                                    </p>
+                                </form>
+                                <div class="PIX">
+                                    <input type="radio" id="PIX" name="Pagamento" value=" PIX" required>
+                                    <label for="PIX"> PIX </label> 
+                                </div> 
+                                <div class="QR">
+                                    <img src="./src/images/qrcode_chrome.png" height="200px">
+                                </div>
+                                <p>
+                                    <input type="submit" value="Confirmar" class="checkout-btn"/>
+                                    <input type="reset" value="Cancelar" class="checkout-btn"/>
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </div>
+    <script src="./src/js/loja.js"></script>
+</body>
+</html>
